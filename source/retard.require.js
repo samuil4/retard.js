@@ -14,6 +14,7 @@ define(function () {
     }
 
     RetardClient.prototype.init = function(clientName) {
+        clientName = clientName ? clientName + ',' : '';
         /***
          * Tell the client what you think of him/her
          */
